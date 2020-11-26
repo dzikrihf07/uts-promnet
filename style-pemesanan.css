@@ -116,6 +116,9 @@ nav li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
 }
 
 .input-kota{
@@ -128,6 +131,9 @@ nav li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
 }
 
 .input-alamat{
@@ -140,11 +146,14 @@ nav li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
 }
 
 .bt-pesan{
     position: absolute;
-    width: 429px;
+    width: 440px;
     height: 53px;
     left: 683px;
     top: 390px;
@@ -152,4 +161,5 @@ nav li a:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: 0px;
+    font-size: 28px;
 }
