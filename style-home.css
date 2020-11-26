@@ -108,3 +108,43 @@ nav li a:hover {
     padding-right: 20px;
     padding-left: 20px;
 }
+
+.smartphone{
+    width: 318px;
+    height: 286px;
+}
+
+.laptop{
+    width: 318px;
+    height: 286px;
+}
+
+.tv{
+    width: 318px;
+    height: 286px;
+}
+
+.ac{
+    width: 318px;
+    height: 286px;
+}
+
+.kipas{
+    width: 318px;
+    height: 286px;
+}
+
+.kulkas{
+    width: 318px;
+    height: 286px;
+}
+
+.mesin-cuci{
+    width: 318px;
+    height: 286px;
+}
+
+.lainnya{
+    width: 318px;
+    height: 286px;
+}
