@@ -1,0 +1,165 @@
+html {
+  background-image: url('assets/temp.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.head-text1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.head-text2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #98E4FC;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a{
+    display: inline-block;
+    color:#000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: #c0eef7;
+}
+
+.section-login {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.22));
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+  margin: 0 auto;
+  top: 20%;
+  left: 110px;
+  padding-top: 49px;
+}
+
+.login-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+  margin-left: 49px;
+  margin-right: 112px;
+  color: #2E343D;
+}
+
+.section-intro {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 56px;
+}
+
+.account-text {
+  font-style: normal;
+  font-weight: normal;
+
+  color: #2F2F2F;
+}
+
+.text-undeline {
+  font-style: normal;
+  font-weight: bold;
+  text-decoration-line: underline;
+  color: #1F69F7;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.section-form {
+  margin-left: 49px;
+  margin-right: 40px;
+}
+
+.label-input {
+  color: #585858;
+  margin-bottom: 14px;
+}
+
+.form-input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  /* border: 2px solid #4EB2EB; */
+  border: 0px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 32px;
+}
+
+.user {
+  margin-bottom: 40px;
+}
+
+.pw {
+  margin-bottom: 60px;
+}
+
+.label-forgot-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-login {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  background: #00C4F0;
+  border-radius: 15px;
+  border: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  color: #FFFFFF;
+  margin-bottom: 52px;
+}
+
+.text-end {
+  text-align: end;
+}
