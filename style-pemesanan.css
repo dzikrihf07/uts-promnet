@@ -163,3 +163,8 @@ nav li a:hover {
     border: 0px;
     font-size: 28px;
 }
+
+.bt-pesan:hover{
+    opacity:0.9;
+    background-color: #c0eef7;
+}
