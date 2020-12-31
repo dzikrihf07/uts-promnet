@@ -1,0 +1,170 @@
+html {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Serif', serif;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+}
+
+.head-text1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.head-text2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: 0%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #98E4FC;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a{
+    display: inline-block;
+    color:#000000;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    opacity:0.9;
+    background-color: #c0eef7;
+}
+
+.jenis{
+    position: absolute;
+    width: 100%;
+    height: 53px;
+    top: 105px;
+    background: #F4FEFF;
+    box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+
+.jenis-text{
+    position: absolute;
+    width: 1266px;
+    height: 38px;
+    left: 50px;
+    top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.kategori{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 10px;
+    top: 176px;
+    background: #F4FEFF;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+}
+
+.pemesanan-ic{
+    position: absolute;
+    width: 429px;
+    height: 430px;
+    left: 127px;
+    top: 80px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+
+.input-provinsi{
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    left: 680px;
+    top: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
+}
+
+.input-kota{
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    left: 680px;
+    top: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
+}
+
+.input-alamat{
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    left: 680px;
+    top: 310px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
+}
+
+.bt-pesan{
+    position: absolute;
+    width: 440px;
+    height: 53px;
+    left: 683px;
+    top: 390px;
+    background: #A6EFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 28px;
+}
+
+.bt-pesan:hover{
+    opacity:0.9;
+    background-color: #c0eef7;
+}
