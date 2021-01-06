@@ -61,11 +61,6 @@ li a:hover {
     background-color: #c0eef7;
 }
 
-nav li a:hover {
-    opacity:0.9;
-    background-color: #c0eef7;
-}
-
 .jenis{
     position: absolute;
     width: 100%;
@@ -93,7 +88,7 @@ nav li a:hover {
 .kategori{
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 650px;
     margin-bottom: 10px;
     top: 176px;
     background: #F4FEFF;
@@ -106,7 +101,7 @@ nav li a:hover {
     width: 429px;
     height: 430px;
     left: 127px;
-    top: 80px;
+    top: 150px;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
     border-radius: 8px;
 }
@@ -156,17 +151,55 @@ nav li a:hover {
     padding-left: 10px;
 }
 
+.input-telp{
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    left: 680px;
+    top: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
+}
+
+.input-nama{
+    position: absolute;
+    width: 429px;
+    height: 53px;
+    left: 680px;
+    top: 470px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 0px;
+    font-size: 24px;
+    font-optical-sizing: 0.4;
+    padding-left: 10px;
+}
+
 .bt-pesan{
     position: absolute;
     width: 440px;
     height: 53px;
     left: 683px;
-    top: 390px;
+    top: 550px;
     background: #A6EFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     border: 0px;
-    font-size: 28px;
+    text-align: center;
+    font-size: 34px;
+    color:inherit;
+    text-decoration: none;
+}
+
+.bt-pesan a {
+    color: black;
+    text-decoration: none;
 }
 
 .bt-pesan:hover{
