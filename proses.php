@@ -1,7 +1,4 @@
-<html><head><title>proses data dari form</title></head>
-<body>
-<h1>proses simpan buku tamu</h1>
-<?
+<?php
 ///membuat koneksi ke database
 $server="localhost"; ///nama server
 $username="root"; ///nama username mysql
@@ -28,5 +25,10 @@ else ///jika gagal
 echo "Buku tamu gagal disimpan";
 }
 ?>
+
+<html><head><title>proses data dari form</title></head>
+<body>
+<h1>proses simpan buku tamu</h1>
+
 | <a href="daftar.html">OK</a>
 </body></html>
