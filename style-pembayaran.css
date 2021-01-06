@@ -28,7 +28,7 @@ html {
     color: #000000;
 }
 
-nav ul {
+ul {
     list-style-type: none;
     top: 0;
     position: fixed;
@@ -43,11 +43,11 @@ nav ul {
     border: 1px solid gainsboro;
 }
 
-nav li {
+li {
     float: right;
 }
 
-nav li a{
+li a{
     display: inline-block;
     color:#000000;
     text-align: center;
@@ -56,7 +56,7 @@ nav li a{
     text-decoration: none;
 }
 
-nav li a:hover {
+li a:hover {
     opacity:0.9;
     background-color: #c0eef7;
 }
